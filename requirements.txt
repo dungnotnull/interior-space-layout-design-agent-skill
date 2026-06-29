@@ -1,0 +1,6 @@
+# Core engine: Python standard library only - no runtime dependencies.
+# Optional: rich web crawl for the self-improving knowledge base.
+crawl4ai>=0.3.0; extra == "crawl"
+
+# Development / test tooling
+pytest>=7.0; extra == "dev"

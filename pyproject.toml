@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interior-space-layout-design"
+version = "1.0.0"
+description = "Score and improve interior layouts on aesthetics, usability, circulation, and feng shui - framework-grounded and evidence-based."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+authors = [{name = "interior-space-layout-design contributors"}]
+keywords = ["interior-design", "space-planning", "feng-shui", "floor-plan", "scoring", "neufert", "well", "bagua"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Artistic Software",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = []
+
+[project.optional-dependencies]
+crawl = ["crawl4ai>=0.3.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+interior-layout = "interior_layout.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+
+[project.urls]
+"Homepage" = "https://github.com/example/interior-space-layout-design"
+"Issues" = "https://github.com/example/interior-space-layout-design/issues"

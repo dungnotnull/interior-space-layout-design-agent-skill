@@ -1,0 +1,9 @@
+# Weekly refresh of SECOND-KNOWLEDGE-BRAIN.md
+# Install on a Linux/macOS cron host:
+#   crontab cron/knowledge_updater.cron
+#
+# Runs every Monday at 03:00 local time. Logs to /var/log/knowledge_updater.log.
+# On Windows, use Task Scheduler to run the same command weekly.
+
+SHELL=/bin/bash
+0 3 * * 1 cd /opt/interior-space-layout-design && /usr/bin/python tools/knowledge_updater.py --no-crawl4ai >> /var/log/knowledge_updater.log 2>&1

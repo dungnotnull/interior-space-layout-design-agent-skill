@@ -1,0 +1,843 @@
+[
+  {
+    "id": "S1_studio_apartment",
+    "description": "28m2 studio floor plan, better function + flow",
+    "input": {
+      "project_id": "S1",
+      "rooms": [
+        {
+          "name": "Studio",
+          "function": "studio",
+          "width_m": 4.0,
+          "length_m": 7.0,
+          "height_m": 2.7,
+          "orientation_deg": 180,
+          "windows": [
+            {
+              "wall": "S",
+              "width_m": 2.0,
+              "head_height_m": 2.1,
+              "sill_height_m": 0.9,
+              "operable": true
+            },
+            {
+              "wall": "E",
+              "width_m": 1.0,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "N",
+              "width_m": 0.85,
+              "swing": "in",
+              "to_room": "hallway"
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Bed",
+              "type": "bed",
+              "width_m": 1.4,
+              "length_m": 2.0,
+              "x_m": 0.5,
+              "y_m": 0.5,
+              "storage_liters": 200
+            },
+            {
+              "name": "Desk",
+              "type": "desk",
+              "width_m": 1.2,
+              "length_m": 0.6,
+              "x_m": 3.0,
+              "y_m": 5.0
+            },
+            {
+              "name": "Sofa",
+              "type": "sofa",
+              "width_m": 2.0,
+              "length_m": 0.9,
+              "x_m": 1.0,
+              "y_m": 4.0
+            },
+            {
+              "name": "Rug",
+              "type": "rug",
+              "width_m": 2.0,
+              "length_m": 1.5,
+              "x_m": 1.0,
+              "y_m": 3.0
+            },
+            {
+              "name": "Wardrobe",
+              "type": "closet",
+              "width_m": 1.5,
+              "length_m": 0.6,
+              "x_m": 3.0,
+              "y_m": 0.5,
+              "storage_liters": 900
+            }
+          ],
+          "adjacent": [
+            "hallway"
+          ]
+        },
+        {
+          "name": "Kitchenette",
+          "function": "kitchen",
+          "width_m": 2.0,
+          "length_m": 2.0,
+          "furniture": [
+            {
+              "name": "Sink",
+              "type": "sink",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.3,
+              "y_m": 0.3
+            },
+            {
+              "name": "Cooktop",
+              "type": "cook",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 1.0,
+              "y_m": 0.3
+            },
+            {
+              "name": "Fridge",
+              "type": "store",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.3,
+              "y_m": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Hallway",
+          "function": "hallway",
+          "width_m": 1.0,
+          "length_m": 3.0,
+          "doors": [
+            {
+              "wall": "N",
+              "width_m": 0.9,
+              "swing": "in",
+              "to_room": "outside"
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult",
+          "age": 30
+        }
+      ],
+      "goals": [
+        "better function and flow",
+        "feng shui harmony"
+      ],
+      "constraints": {
+        "renovation_allowed": false,
+        "renter": true,
+        "budget_usd": 1500
+      },
+      "orientation_deg": 180,
+      "entrance_description": "north-facing door",
+      "raw_description": "28m2 studio rental"
+    },
+    "expected_frameworks": [
+      "Christopher Alexander",
+      "Neufert",
+      "Feng Shui"
+    ],
+    "assertions": [
+      "gates_passed",
+      "scorecard_has_8_dims",
+      "roadmap_nonempty",
+      "fengshui_labelled"
+    ]
+  },
+  {
+    "id": "S2_home_office_addition",
+    "description": "Add a WFH desk to a bedroom",
+    "input": {
+      "project_id": "S2",
+      "rooms": [
+        {
+          "name": "Bedroom",
+          "function": "bedroom",
+          "width_m": 4.0,
+          "length_m": 4.0,
+          "height_m": 2.7,
+          "orientation_deg": 90,
+          "windows": [
+            {
+              "wall": "E",
+              "width_m": 1.6,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "W",
+              "width_m": 0.8,
+              "swing": "in"
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Bed",
+              "type": "bed",
+              "width_m": 1.6,
+              "length_m": 2.0,
+              "x_m": 0.5,
+              "y_m": 0.5,
+              "storage_liters": 150
+            },
+            {
+              "name": "Desk",
+              "type": "desk",
+              "width_m": 1.4,
+              "length_m": 0.7,
+              "x_m": 2.5,
+              "y_m": 3.0
+            },
+            {
+              "name": "OfficeChair",
+              "type": "chair",
+              "width_m": 0.6,
+              "length_m": 0.6
+            },
+            {
+              "name": "Wardrobe",
+              "type": "closet",
+              "width_m": 1.2,
+              "length_m": 0.6,
+              "x_m": 3.0,
+              "y_m": 0.5,
+              "storage_liters": 700
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult",
+          "age": 35,
+          "needs": [
+            "work from home"
+          ]
+        }
+      ],
+      "goals": [
+        "add ergonomic home office desk",
+        "good lighting and acoustics"
+      ],
+      "constraints": {
+        "renovation_allowed": true,
+        "budget_usd": 800
+      },
+      "orientation_deg": 90,
+      "raw_description": "home office addition in bedroom"
+    },
+    "expected_frameworks": [
+      "Neufert",
+      "WELL"
+    ],
+    "assertions": [
+      "gates_passed",
+      "scorecard_has_8_dims",
+      "roadmap_nonempty"
+    ]
+  },
+  {
+    "id": "S3_feng_shui_request",
+    "description": "User asks for command-position bed placement",
+    "input": {
+      "project_id": "S3",
+      "rooms": [
+        {
+          "name": "Bedroom",
+          "function": "bedroom",
+          "width_m": 4.5,
+          "length_m": 4.0,
+          "height_m": 2.7,
+          "orientation_deg": 0,
+          "windows": [
+            {
+              "wall": "N",
+              "width_m": 1.8,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "S",
+              "width_m": 0.85,
+              "swing": "in"
+            }
+          ],
+          "notes": "exposed beam over bed area",
+          "furniture": [
+            {
+              "name": "Bed",
+              "type": "bed",
+              "width_m": 1.8,
+              "length_m": 2.0,
+              "x_m": 1.0,
+              "y_m": 1.0
+            },
+            {
+              "name": "Nightstand",
+              "type": "cabinet",
+              "width_m": 0.5,
+              "length_m": 0.5,
+              "x_m": 3.0,
+              "y_m": 1.0
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult",
+          "age": 40
+        }
+      ],
+      "goals": [
+        "command-position bed placement",
+        "feng shui bagua overlay"
+      ],
+      "constraints": {
+        "renovation_allowed": false,
+        "renter": true
+      },
+      "orientation_deg": 0,
+      "raw_description": "feng shui command position request"
+    },
+    "expected_frameworks": [
+      "Feng Shui"
+    ],
+    "assertions": [
+      "gates_passed",
+      "fengshui_enabled",
+      "fengshui_labelled",
+      "roadmap_nonempty"
+    ]
+  },
+  {
+    "id": "S4_small_kitchen_flow",
+    "description": "Cramped kitchen work triangle",
+    "input": {
+      "project_id": "S4",
+      "rooms": [
+        {
+          "name": "Kitchen",
+          "function": "kitchen",
+          "width_m": 2.4,
+          "length_m": 2.2,
+          "height_m": 2.7,
+          "windows": [
+            {
+              "wall": "E",
+              "width_m": 0.9,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "W",
+              "width_m": 0.8,
+              "swing": "in"
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Sink",
+              "type": "sink",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.2,
+              "y_m": 0.2
+            },
+            {
+              "name": "Cooktop",
+              "type": "cook",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.5,
+              "y_m": 0.4
+            },
+            {
+              "name": "Fridge",
+              "type": "store",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.3,
+              "y_m": 0.5
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult"
+        }
+      ],
+      "goals": [
+        "fix cramped kitchen work triangle"
+      ],
+      "constraints": {
+        "renovation_allowed": true,
+        "budget_usd": 3000
+      },
+      "raw_description": "cramped kitchen work triangle"
+    },
+    "expected_frameworks": [
+      "Neufert"
+    ],
+    "assertions": [
+      "gates_passed",
+      "scorecard_has_8_dims",
+      "roadmap_nonempty"
+    ]
+  },
+  {
+    "id": "S5_rental_no_renovation",
+    "description": "Cannot move walls; furniture-only roadmap",
+    "input": {
+      "project_id": "S5",
+      "rooms": [
+        {
+          "name": "LivingRoom",
+          "function": "living",
+          "width_m": 4.0,
+          "length_m": 5.0,
+          "height_m": 2.7,
+          "orientation_deg": 90,
+          "windows": [
+            {
+              "wall": "E",
+              "width_m": 2.0,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "W",
+              "width_m": 0.85,
+              "swing": "in"
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Sofa",
+              "type": "sofa",
+              "width_m": 2.2,
+              "length_m": 0.9,
+              "x_m": 0.5,
+              "y_m": 2.0
+            },
+            {
+              "name": "CoffeeTable",
+              "type": "table",
+              "width_m": 1.0,
+              "length_m": 0.5,
+              "x_m": 1.5,
+              "y_m": 3.0
+            },
+            {
+              "name": "TVUnit",
+              "type": "cabinet",
+              "width_m": 1.6,
+              "length_m": 0.4,
+              "x_m": 3.0,
+              "y_m": 0.3,
+              "storage_liters": 300
+            },
+            {
+              "name": "Rug",
+              "type": "rug",
+              "width_m": 2.5,
+              "length_m": 1.8,
+              "x_m": 1.0,
+              "y_m": 2.5
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult"
+        },
+        {
+          "role": "child",
+          "age": 6
+        }
+      ],
+      "goals": [
+        "improve layout without renovation"
+      ],
+      "constraints": {
+        "renovation_allowed": false,
+        "renter": true,
+        "budget_usd": 500
+      },
+      "orientation_deg": 90,
+      "raw_description": "rental no renovation"
+    },
+    "expected_frameworks": [
+      "Neufert",
+      "Gestalt"
+    ],
+    "assertions": [
+      "gates_passed",
+      "roadmap_nonempty",
+      "no_renovation_roadmap_items"
+    ]
+  },
+  {
+    "id": "S6_incomplete_input",
+    "description": "Vague one-line description, no artifact",
+    "input": {
+      "raw_description": "small apartment",
+      "goals": []
+    },
+    "expected_frameworks": [],
+    "assertions": [
+      "gates_failed",
+      "no_scorecard",
+      "clarifying_questions_present"
+    ]
+  },
+  {
+    "id": "S7_offline_degraded",
+    "description": "Normal request but live search unavailable",
+    "input": {
+      "project_id": "S7",
+      "rooms": [
+        {
+          "name": "Bedroom",
+          "function": "bedroom",
+          "width_m": 3.5,
+          "length_m": 3.5,
+          "windows": [
+            {
+              "wall": "S",
+              "width_m": 1.5,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Bed",
+              "type": "bed",
+              "width_m": 1.5,
+              "length_m": 2.0,
+              "x_m": 0.5,
+              "y_m": 0.5,
+              "storage_liters": 120
+            },
+            {
+              "name": "Rug",
+              "type": "rug",
+              "width_m": 2.0,
+              "length_m": 1.5,
+              "x_m": 0.8,
+              "y_m": 2.0
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult"
+        }
+      ],
+      "goals": [
+        "better sleep comfort"
+      ],
+      "constraints": {
+        "renovation_allowed": false,
+        "renter": true
+      },
+      "orientation_deg": 180
+    },
+    "options": {
+      "live_search": false
+    },
+    "expected_frameworks": [],
+    "assertions": [
+      "degraded_mode",
+      "degradation_note_present",
+      "frameworks_cited_from_internal"
+    ]
+  },
+  {
+    "id": "S8_micro_noncompliant",
+    "description": "Adversarial: extremely tiny room below all Neufert minima",
+    "input": {
+      "project_id": "S8",
+      "rooms": [
+        {
+          "name": "Micro",
+          "function": "living",
+          "width_m": 1.8,
+          "length_m": 1.8,
+          "height_m": 2.2,
+          "windows": [
+            {
+              "wall": "S",
+              "width_m": 0.4,
+              "head_height_m": 1.8,
+              "operable": false
+            }
+          ],
+          "doors": [
+            {
+              "wall": "N",
+              "width_m": 0.6,
+              "swing": "in"
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Bed",
+              "type": "bed",
+              "width_m": 1.2,
+              "length_m": 2.0,
+              "x_m": 0.2,
+              "y_m": 0.2
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult"
+        },
+        {
+          "role": "adult"
+        }
+      ],
+      "goals": [
+        "make this livable"
+      ],
+      "constraints": {
+        "renovation_allowed": true,
+        "budget_usd": 5000
+      },
+      "orientation_deg": 180
+    },
+    "expected_frameworks": [
+      "Neufert"
+    ],
+    "assertions": [
+      "gates_passed",
+      "scorecard_has_8_dims",
+      "roadmap_nonempty",
+      "low_overall_score"
+    ]
+  },
+  {
+    "id": "S9_openplan_competing_focals",
+    "description": "Adversarial: open-plan living with too many competing focal points, no orientation",
+    "input": {
+      "project_id": "S9",
+      "rooms": [
+        {
+          "name": "OpenLiving",
+          "function": "living",
+          "width_m": 8.0,
+          "length_m": 6.0,
+          "height_m": 3.0,
+          "windows": [
+            {
+              "wall": "S",
+              "width_m": 4.0,
+              "head_height_m": 2.4,
+              "operable": true
+            },
+            {
+              "wall": "E",
+              "width_m": 3.0,
+              "head_height_m": 2.4,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "N",
+              "width_m": 1.0,
+              "swing": "in"
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Sofa",
+              "type": "sofa",
+              "width_m": 3.0,
+              "length_m": 1.0,
+              "x_m": 0.5,
+              "y_m": 1.0
+            },
+            {
+              "name": "TVWall",
+              "type": "media",
+              "width_m": 3.0,
+              "length_m": 0.4,
+              "x_m": 4.0,
+              "y_m": 0.3
+            },
+            {
+              "name": "DiningTable",
+              "type": "table",
+              "width_m": 2.0,
+              "length_m": 1.0,
+              "x_m": 5.0,
+              "y_m": 3.0
+            },
+            {
+              "name": "Piano",
+              "type": "instrument",
+              "width_m": 1.5,
+              "length_m": 0.6,
+              "x_m": 0.5,
+              "y_m": 4.5
+            },
+            {
+              "name": "Bookshelf",
+              "type": "cabinet",
+              "width_m": 2.0,
+              "length_m": 0.4,
+              "x_m": 6.0,
+              "y_m": 5.0,
+              "storage_liters": 1200
+            }
+          ]
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult"
+        }
+      ],
+      "goals": [
+        "improve composition"
+      ],
+      "constraints": {
+        "renovation_allowed": false,
+        "renter": true
+      }
+    },
+    "expected_frameworks": [
+      "Gestalt"
+    ],
+    "assertions": [
+      "gates_passed",
+      "fengshui_disabled",
+      "roadmap_nonempty"
+    ]
+  },
+  {
+    "id": "S10_bad_kitchen_and_bathroom",
+    "description": "Adversarial: over-spread work triangle and windowless bathroom",
+    "input": {
+      "project_id": "S10",
+      "rooms": [
+        {
+          "name": "Kitchen",
+          "function": "kitchen",
+          "width_m": 6.0,
+          "length_m": 5.0,
+          "height_m": 2.7,
+          "windows": [
+            {
+              "wall": "E",
+              "width_m": 1.5,
+              "head_height_m": 2.1,
+              "operable": true
+            }
+          ],
+          "doors": [
+            {
+              "wall": "W",
+              "width_m": 0.8
+            }
+          ],
+          "furniture": [
+            {
+              "name": "Sink",
+              "type": "sink",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.3,
+              "y_m": 0.3
+            },
+            {
+              "name": "Cooktop",
+              "type": "cook",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 5.0,
+              "y_m": 0.3
+            },
+            {
+              "name": "Fridge",
+              "type": "store",
+              "width_m": 0.6,
+              "length_m": 0.6,
+              "x_m": 0.3,
+              "y_m": 4.0
+            }
+          ]
+        },
+        {
+          "name": "Bathroom",
+          "function": "bathroom",
+          "width_m": 1.8,
+          "length_m": 2.0,
+          "height_m": 2.4,
+          "doors": [
+            {
+              "wall": "N",
+              "width_m": 0.7
+            }
+          ],
+          "furniture": []
+        }
+      ],
+      "occupants": [
+        {
+          "role": "adult"
+        }
+      ],
+      "goals": [
+        "fix kitchen flow"
+      ],
+      "constraints": {
+        "renovation_allowed": true,
+        "budget_usd": 4000
+      },
+      "orientation_deg": 90
+    },
+    "expected_frameworks": [
+      "Neufert",
+      "WELL"
+    ],
+    "assertions": [
+      "gates_passed",
+      "scorecard_has_8_dims",
+      "roadmap_nonempty"
+    ]
+  }
+]

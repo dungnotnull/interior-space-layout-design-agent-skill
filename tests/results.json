@@ -1,0 +1,655 @@
+{
+  "run_at": "2026-06-29T23:04:23",
+  "total": 10,
+  "passed": 10,
+  "failed": 0,
+  "all_pass": true,
+  "results": [
+    {
+      "id": "S1_studio_apartment",
+      "description": "28m2 studio floor plan, better function + flow",
+      "passed": true,
+      "weighted_total": 65.2,
+      "overall_band": "fair",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 9,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "scorecard_has_8_dims",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        },
+        {
+          "assertion": "fengshui_labelled",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S2_home_office_addition",
+      "description": "Add a WFH desk to a bedroom",
+      "passed": true,
+      "weighted_total": 72.8,
+      "overall_band": "fair",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 5,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "scorecard_has_8_dims",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S3_feng_shui_request",
+      "description": "User asks for command-position bed placement",
+      "passed": true,
+      "weighted_total": 69.6,
+      "overall_band": "fair",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 5,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "fengshui_enabled",
+          "passed": true
+        },
+        {
+          "assertion": "fengshui_labelled",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S4_small_kitchen_flow",
+      "description": "Cramped kitchen work triangle",
+      "passed": true,
+      "weighted_total": 56.2,
+      "overall_band": "weak",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 4,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "scorecard_has_8_dims",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S5_rental_no_renovation",
+      "description": "Cannot move walls; furniture-only roadmap",
+      "passed": true,
+      "weighted_total": 54.6,
+      "overall_band": "weak",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 7,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        },
+        {
+          "assertion": "no_renovation_roadmap_items",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S6_incomplete_input",
+      "description": "Vague one-line description, no artifact",
+      "passed": true,
+      "weighted_total": 0.0,
+      "overall_band": "not_graded",
+      "gates_passed": false,
+      "degraded_mode": true,
+      "frameworks_cited": [],
+      "roadmap_items": 0,
+      "assertions": [
+        {
+          "assertion": "gates_failed",
+          "passed": true
+        },
+        {
+          "assertion": "no_scorecard",
+          "passed": true
+        },
+        {
+          "assertion": "clarifying_questions_present",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": false,
+          "detail": "Mandatory fields missing: What rooms/spaces are in the layout, with width x length in meters?, Who uses the space (occupants, ages, mobility needs)?, What is your main goal (e.g. better flow, more light, feng shui harmony)?, Which compass direction does the main entrance/primary window face?"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": false,
+          "detail": "Scoring skipped pending clarification."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": false,
+          "detail": "No framework selected until intake is complete."
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "No roadmap produced yet; gate n/a."
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "No feng shui overlay produced yet; gate n/a."
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "No findings to challenge yet; gate n/a."
+        }
+      ]
+    },
+    {
+      "id": "S7_offline_degraded",
+      "description": "Normal request but live search unavailable",
+      "passed": true,
+      "weighted_total": 70.2,
+      "overall_band": "fair",
+      "gates_passed": true,
+      "degraded_mode": true,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 4,
+      "assertions": [
+        {
+          "assertion": "degraded_mode",
+          "passed": true
+        },
+        {
+          "assertion": "degradation_note_present",
+          "passed": true
+        },
+        {
+          "assertion": "frameworks_cited_from_internal",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S8_micro_noncompliant",
+      "description": "Adversarial: extremely tiny room below all Neufert minima",
+      "passed": true,
+      "weighted_total": 22.5,
+      "overall_band": "poor",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 10,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "scorecard_has_8_dims",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        },
+        {
+          "assertion": "low_overall_score",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S9_openplan_competing_focals",
+      "description": "Adversarial: open-plan living with too many competing focal points, no orientation",
+      "passed": true,
+      "weighted_total": 81.4,
+      "overall_band": "good",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 5,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "fengshui_disabled",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    },
+    {
+      "id": "S10_bad_kitchen_and_bathroom",
+      "description": "Adversarial: over-spread work triangle and windowless bathroom",
+      "passed": true,
+      "weighted_total": 65.3,
+      "overall_band": "fair",
+      "gates_passed": true,
+      "degraded_mode": false,
+      "frameworks_cited": [
+        "Christopher Alexander - A Pattern Language",
+        "Feng Shui Form School & Bagua mapping",
+        "Gestalt principles of visual composition",
+        "Human Factors / Anthropometrics (Neufert Architects' Data)",
+        "W WELL Building Standard (daylight & comfort)"
+      ],
+      "roadmap_items": 5,
+      "assertions": [
+        {
+          "assertion": "gates_passed",
+          "passed": true
+        },
+        {
+          "assertion": "scorecard_has_8_dims",
+          "passed": true
+        },
+        {
+          "assertion": "roadmap_nonempty",
+          "passed": true
+        }
+      ],
+      "frameworks_match": true,
+      "gate_details": [
+        {
+          "name": "no_silent_assumptions",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "every_dimension_scored_with_evidence",
+          "passed": true,
+          "detail": "All 8 dimensions have a score and evidence."
+        },
+        {
+          "name": "at_least_one_named_framework_cited",
+          "passed": true,
+          "detail": "Cited frameworks: Christopher Alexander - A Pattern Language, Feng Shui Form School & Bagua mapping, Gestalt principles of visual composition, Human Factors / Anthropometrics (Neufert Architects' Data), W WELL Building Standard (daylight & comfort)"
+        },
+        {
+          "name": "roadmap_items_measurable",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "fengshui_labelled_as_traditional",
+          "passed": true,
+          "detail": "OK"
+        },
+        {
+          "name": "devils_advocate_review",
+          "passed": true,
+          "detail": "OK"
+        }
+      ]
+    }
+  ]
+}

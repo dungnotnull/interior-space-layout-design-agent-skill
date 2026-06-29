@@ -1,0 +1,147 @@
+{
+  "project_id": "S1",
+  "rooms": [
+    {
+      "name": "Studio",
+      "function": "studio",
+      "width_m": 4.0,
+      "length_m": 7.0,
+      "height_m": 2.7,
+      "orientation_deg": 180,
+      "windows": [
+        {
+          "wall": "S",
+          "width_m": 2.0,
+          "head_height_m": 2.1,
+          "sill_height_m": 0.9,
+          "operable": true
+        },
+        {
+          "wall": "E",
+          "width_m": 1.0,
+          "head_height_m": 2.1,
+          "operable": true
+        }
+      ],
+      "doors": [
+        {
+          "wall": "N",
+          "width_m": 0.85,
+          "swing": "in",
+          "to_room": "hallway"
+        }
+      ],
+      "furniture": [
+        {
+          "name": "Bed",
+          "type": "bed",
+          "width_m": 1.4,
+          "length_m": 2.0,
+          "x_m": 0.5,
+          "y_m": 0.5,
+          "storage_liters": 200
+        },
+        {
+          "name": "Desk",
+          "type": "desk",
+          "width_m": 1.2,
+          "length_m": 0.6,
+          "x_m": 3.0,
+          "y_m": 5.0
+        },
+        {
+          "name": "Sofa",
+          "type": "sofa",
+          "width_m": 2.0,
+          "length_m": 0.9,
+          "x_m": 1.0,
+          "y_m": 4.0
+        },
+        {
+          "name": "Rug",
+          "type": "rug",
+          "width_m": 2.0,
+          "length_m": 1.5,
+          "x_m": 1.0,
+          "y_m": 3.0
+        },
+        {
+          "name": "Wardrobe",
+          "type": "closet",
+          "width_m": 1.5,
+          "length_m": 0.6,
+          "x_m": 3.0,
+          "y_m": 0.5,
+          "storage_liters": 900
+        }
+      ],
+      "adjacent": [
+        "hallway"
+      ]
+    },
+    {
+      "name": "Kitchenette",
+      "function": "kitchen",
+      "width_m": 2.0,
+      "length_m": 2.0,
+      "furniture": [
+        {
+          "name": "Sink",
+          "type": "sink",
+          "width_m": 0.6,
+          "length_m": 0.6,
+          "x_m": 0.3,
+          "y_m": 0.3
+        },
+        {
+          "name": "Cooktop",
+          "type": "cook",
+          "width_m": 0.6,
+          "length_m": 0.6,
+          "x_m": 1.0,
+          "y_m": 0.3
+        },
+        {
+          "name": "Fridge",
+          "type": "store",
+          "width_m": 0.6,
+          "length_m": 0.6,
+          "x_m": 0.3,
+          "y_m": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Hallway",
+      "function": "hallway",
+      "width_m": 1.0,
+      "length_m": 3.0,
+      "doors": [
+        {
+          "wall": "N",
+          "width_m": 0.9,
+          "swing": "in",
+          "to_room": "outside"
+        }
+      ]
+    }
+  ],
+  "occupants": [
+    {
+      "role": "adult",
+      "age": 30
+    }
+  ],
+  "goals": [
+    "better function and flow",
+    "feng shui harmony"
+  ],
+  "constraints": {
+    "renovation_allowed": false,
+    "renter": true,
+    "budget_usd": 1500
+  },
+  "orientation_deg": 180,
+  "entrance_description": "north-facing door",
+  "raw_description": "28m2 studio rental"
+}
